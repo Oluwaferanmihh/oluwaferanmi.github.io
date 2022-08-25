@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0" >
+        <style>
+            *{
+                font-family: Arial, Helvetica, sans-serif;
+                box-sizing: border-box;
+                margin-top: 10px;
+            }
+          
+            .a{
+                width: 44.45%;
+                margin-left: 50px;
+                
+                float: left;
+            }
+            .ab{
+                width: 45%;
+                float: left;
+                margin-left: 50px;
+            }
+            .ac{
+                background-color: #b9def0;
+                height: 60px;
+                text-align: center;
+                color: #647c88;
+                width: 60%;
+                border-radius: 7px;
+                border: 1px solid #647c88;
+                padding-top: 10px;
+            }
+            .ad{
+                height: 250px;
+                width: 60%;
+                border-radius: 7px;
+                border: 1px solid rgba(54, 50, 50, 0.3);
+            }
+            .span{
+                font-size:25px;
+            }
+            p{
+                font-size: smaller;
+                margin-bottom: 20px;
+            }
+            .p{
+               margin-left: 20px;
+               font-size: smaller;
+               
+            }
+            .pa{
+                font-size: smaller;
+                margin-left: 50px;
+            }
+            .p1{
+                border-top: 1px solid rgba(54, 50, 50, 0.3);
+                padding: 12px;
+                margin-top: 0;
+                margin-left: 15px;
+                margin-right: 15px;
+                margin-bottom: 0;
+                background-color: rgb(251, 247, 247);
+            }
+            .p2{
+                border-top: 1px solid rgba(54, 50, 50, 0.3);
+                padding: 12px;
+                margin: 15px;
+                margin-bottom: 0;
+                background-color: rgb(251, 247, 247);
+            }
+            .p3{
+                border-top: 1px solid rgba(54, 50, 50, 0.3);
+                padding: 12px;
+                margin-top: 0;
+                margin-left: 15px;
+                margin-right: 15px;
+                margin-bottom: 0;
+            }
+            .b {
+                text-decoration: none;
+                background-color: rgba(0, 133, 0, 0.7);
+                color: white;
+                padding: 10px;
+                cursor: pointer;
+                border-radius: 5px;
+               
+                display: inline-flex;
+                font-size: smaller;
+                border: 1px groove rgba(0, 133, 0, 0.7) ;
+              
+            
+            }
+            .b:hover{
+                background-color: rgba(0, 133, 0, 0.9);
+            }
+            .c{
+                text-decoration: none;
+                background-color: #eb9316;
+                color: white;
+                padding: 10px;
+                
+                display: inline-flex;
+                cursor: pointer;
+                border-radius: 5px;
+                font-size: smaller;
+                border: 1px groove #eb9316
+            }
+            .c:hover{
+                background-color: #f08c00 ;
+            }
+            .d{
+                text-decoration: none;
+                color: white;
+                padding: 10px;
+                cursor: pointer;
+             
+                display: inline-flex;
+                border-radius: 5px;
+                font-size: smaller;
+                border: 1px groove #265a88;
+                background-color: #265a88;
+            }
+            .d:hover{
+                background-color: #064883 ;
+            }
+            .e{
+                text-decoration: none;
+                color: white;
+                padding: 10px;
+                cursor: pointer;
+                
+                display: inline-flex;
+                border-radius: 5px;
+                font-size: smaller;
+                border: 1px groove #2aabd2; 
+                background-color: #2aabd2;
+            }
+            .e:hover{
+                background-color: #19a5d0;
+            }
+            .f{
+                text-decoration: none;
+                color: white;
+                padding: 10px;
+                cursor: pointer;
+                
+                display: inline-flex;
+                border-radius: 5px;
+                font-size: smaller;
+                border: 1px solid rgb(207, 35, 35);
+                background-color: rgb(207, 35, 35);
+            }
+            .f:hover{
+                background-color: red;
+            }
+            .g{
+                text-decoration: none;
+                color: white;
+                padding: 10px;
+                cursor: pointer;
+                
+                display: inline-flex;
+                border-radius: 5px;
+                font-size: smaller;
+                border: 1px solid rgb(208, 208, 208);
+                background-color: rgb(210, 202, 202); 
+            }
+            .g:hover{
+                background-color: rgb(187, 183, 183);
+            }
+            .h{
+                text-decoration: none;
+                margin-left: 20px;
+            }
+            hr{
+                margin: 20px;
+            }
+           footer{
+            float: right;
+           }
+         
+    @media only screen and (max-width:1200px) {
+        .a{
+            width: 45%;
+        }
+        .ab{
+            width: 35%;
+        }
+        .ac{
+                width: 90%;
+                
+            }
+        .ad{
+            width: 90%;
+        }
+    }
+    @media only screen and (max-width:1100px) {
+        .a{
+            width: 50%;
+            margin-left: 0;
+        }
+        .ab{
+            width: 40%;
+        }
+        .ac{
+                width: 90%;
+                
+            }
+        .ad{
+            width: 90%;
+            height: 300px;
+        }
+    }
+    @media only screen and (max-width:600px) {
+        .a{
+            width: 45%;
+            margin-left: 0;
+        }
+        .ab{
+            width: 39%;
+        }
+        .p{
+            width: 10px
+        }
+
+    }
+        </style>
+    </head>
+    <body>
+        <div class="a">
+            <span class="span">Reset your Hotspot Password Here</span><br>
+            <p>Click Reset Password Button below to change your internet assword.</p>
+            <a href="#" class="b">Reset Password</a><br><br>
+            <span class="span">Internet Support Ticket</span><br>
+            <p>Welcome to <a href="#" style="text-decoration: none;">Support Ticket</a> , Here we handle various support such as Internet Password Reset e.t.c</p>
+            <a href="#" class="b">Support</a><br><br>
+            <span class="span">FUTA Library E-Resources</span><br>
+            <p>Welcome to Futa Library E-Resources page.</p>
+            <a href="#" class="c">FUTASPACE</a>
+            <a href="#" class="d">OPAC</a>
+            <a href="#" class="d">TEEAL</a>
+            <a href="#" class="e">Calibre</a>
+            <a href="#" class="c">Science Direct</a>
+            <a href="#" class="b">DOAJ</a>
+            <a href="#" class="d">AJOL</a>
+            <a href="#" class="b">AECE</a>
+            <a href="#" class="c">iTcon</a>
+            <a href="#" class="b">Hindawi</a>
+            <a href="#" class="d">Agora</a>
+            <a href="#" class="b">BioOne</a><br><br>
+            <span class="span">FUTA Links</span><br><br>
+            <a href="#" class="b">FUTA e-Learning</a>
+            <a href="#" class="f">FUTA Centers</a>
+            <a href="#" class="c">FUTA Journals</a>
+            <a href="#" class="b">SPGS Portal</a>
+            <a href="#" class="e">Undergraduate Portal</a>
+            <a href="#" class="e">FUTA e-Transcript</a>
+            <a href="#" class="g">Staff Directory</a>
+            <a href="#" class="d">FUTA Home</a>
+            <a href="#" class="b">SOS-Digital Learning Resource</a>
+        </div>
+        <div class="ab">
+            <span class="span">Ticket Login Status</span><br>
+            <div class="ac">
+                <p>Welcome!</p>
+            </div>
+            <div class="ad">
+
+                <p class="p2"><span class="p">IP address: <span style="color: rgb(251, 247, 247);">jjiii</span></span> <span class="pa">123.456.789.123</span></p>
+                <p class="p3"><span class="p">bytes up/down</span> <span class="pa">0B / 13KiB</span></p>
+                <p class="p1"><span class="p">connected: <span style="color: rgb(251, 247, 247);">jjiii</span></span> <span class="pa">1s</span></p>
+                <p class="p3"><span class="p">status refresh</span> <span class="pa">1m</span></p><br>
+                <a href="#" class="h">Logout</a>
+            </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </div>
+        <footer>
+            Oluwaferanmi Akinyele Frontend Developer <br>
+            Mobile: +2348124662201, +2349069032470 <br>
+            © 2022 Akure, Nigeria.
+        </footer>
+    </body>
+</html>
